@@ -1,0 +1,17 @@
+The DBMS that we use in this assignment is running somewhere in one of Microsoft's data centers. 
+What do you think about the idea of offering a DBMS as a service in a public cloud? 
+What do you consider the benefits or drawbacks to this approach compared to running the database locally?
+
+I think DBMS as part of a public cloud is a really convenient way to set up a project. 
+It abstracts away the physical infrastructure so developers don't have to worry about the hardware and can focus on writing the software.
+
+Public cloud storage vs local database:
+- It's easier to scale your database by choosing configurations suitable to one's needs. Scaling is comparatively tougher in a local database system 
+as one would need to buy computing resources
+- For small projects, cloud offerings are convenient as you don't have to worry about the physical infrastructure
+- For larger projects, the cost of using public cloud could be much higher and it may be cheaper to use a local database system
+- Setting up a local database system can be more challenging than using a plug and play solution from the cloud
+- Public clouds offer redundancy which have much better backup gaurantees compared to a local database
+- Public clouds also make it easier to access your database across the internet, whereas, you would have to configure the connectivity of the local/on-premise database
+- Public clouds are really convenient for smaller teams and can help improve the productivity of software teams as developers don't have to worry about the hardware.
+- You lose control over the availability and security of the database which could be an issue for highly critical systems.
